@@ -1,4 +1,5 @@
 # BetterString 字符串处理库
+> **By:lhx077**
 
 ## 简介
 
@@ -22,7 +23,7 @@ BetterString 是一个高性能、功能丰富的C++字符串处理库，旨在�
 
 ### BetterStringCore (C语言实现)
 
-- **底层C实现**：核心字符串操作使用纯C语言实现，减少了C++抽象带来的开销
+- **底层C实现**：核心字符串操作使用纯C实现，减少了C++抽象带来的开销
 - **优化的内存管理**：改进的小字符串优化(SSO)实现，减少堆内存分配
 - **高效字符串算法**：优化的字符串比较、搜索和操作算法
 - **内联函数**：关键操作使用内联函数，减少函数调用开销
@@ -62,13 +63,13 @@ make install
 
 ### 选择实现
 
-您可以根据需求选择使用纯C++实现或C语言实现：
+您可以根据需求选择使用纯C++实现或C实现：
 
 ```cpp
 // 使用纯C++实现
 #include "BetterString/include/BetterString.h"
 
-// 使用C语言实现（性能更高）
+// 使用C实现（性能更高）
 #include "BetterStringCore/include/BetterString.h"
 ```
 
@@ -145,7 +146,7 @@ typedef struct {
 
 ### 字符串搜索优化
 
-C语言实现版本使用改进的字符串搜索算法，特别是对于短字符串的搜索效率更高。
+C实现版本使用改进的字符串搜索算法，特别是对于短字符串的搜索效率更高。
 
 ## 项目结构
 
@@ -157,7 +158,7 @@ BetterString/
 │   │   └── StringUtils.h
 │   ├── examples/
 │   └── tests/
-├── BetterStringCore/     # C语言实现
+├── BetterStringCore/     # C实现
 │   ├── include/
 │   │   ├── BetterString.h
 │   │   └── BetterStringCore.h
@@ -185,14 +186,14 @@ cmake --build . --target BetterStringCore
 
 1. 两种实现保持完全相同的API，但内部实现有显著差异
 2. 在极少数情况下，某些边缘情况的行为可能略有不同
-3. C语言实现版本更适合性能敏感的应用场景
+3. C实现版本更适合性能敏感的应用场景
 
 ## 未来计划
 
 1. 进一步优化字符串搜索算法
 2. 添加更多针对特定场景的优化
-3. 提供更多性能测试和基准
-4. 考虑添加并行处理支持
+3. 考虑添加并行处理支持
+...
 
 ## 贡献
 
