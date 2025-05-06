@@ -1,0 +1,53 @@
+# 构建目录
+/build/
+/out/
+/cmake-build*/
+
+# IDE配置文件
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# 编译输出
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# CMake生成文件
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# 系统和临时文件
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*~
+
+# 依赖目录
+/vendor/
+/third-party/
+/external/
+
+# 测试覆盖率报告
+/coverage/
+*.gcno
+*.gcda
+*.gcov
