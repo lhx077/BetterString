@@ -170,11 +170,12 @@ generate_vs2022.bat
 
 ## 文档
 
-有关详细的API文档和使用指南，请参阅[docs](docs/)目录：
+有关详细的API文档和使用指南，请参阅以下文档：
 
-- [API参考](docs/api_reference_zh.md)
-- [单头文件使用指南](docs/single_header_usage_zh.md)
-- [高级用法](docs/advanced_usage.md)
+- [基本使用指南](basic_usage_zh.md)
+- [API参考](api_reference_zh.md)
+- [单头文件使用指南](single_header_usage_zh.md)
+- [高级用法](advanced_usage_zh.md)
 
 ## 最近更新
 

@@ -185,6 +185,7 @@ The script will guide you to choose between generating the regular version, the 
 
 For detailed API documentation and usage guides, please refer to the following documents:
 
+- [Basic Usage Guide](basic_usage_en.md)
 - [API Reference](api_reference_en.md)
 - [Single-Header Usage Guide](single_header_usage_en.md)
 - [Advanced Usage](advanced_usage_en.md)
