@@ -10,6 +10,8 @@ BetterString is a high-performance, feature-rich string processing library avail
 
 This library is designed to meet the string processing needs of modern application development, with Unicode support and a comprehensive set of string operations.
 
+![Alt](https://repobeats.axiom.co/api/embed/6f7632569b7852dfaca4252d4a0d66459da3f564.svg "Repobeats analytics image")
+
 ## Documentation
 
 Please select your preferred language to view the complete documentation:
